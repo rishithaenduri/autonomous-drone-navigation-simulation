@@ -1,0 +1,43 @@
+{
+  "SettingsVersion": 1.2,
+  "SimMode": "Multirotor",
+  "ClockSpeed": 1,
+  "Vehicles": {
+    "Drone1": {
+      "VehicleType": "SimpleFlight",
+      "AutoCreate": true,
+      "Sensors": {
+        "DistanceFront": {
+          "SensorType": 5, "Enabled": true,
+          "Yaw": 0,   "Pitch": 0, "Roll": 0,
+          "X": 0.5,   "Y": 0,    "Z": 0
+        },
+        "DistanceBack": {
+          "SensorType": 5, "Enabled": true,
+          "Yaw": 180, "Pitch": 0, "Roll": 0,
+          "X": -0.5,  "Y": 0,    "Z": 0
+        },
+        "DistanceLeft": {
+          "SensorType": 5, "Enabled": true,
+          "Yaw": 90,  "Pitch": 0, "Roll": 0,
+          "X": 0,     "Y": -0.5, "Z": 0
+        },
+        "DistanceRight": {
+          "SensorType": 5, "Enabled": true,
+          "Yaw": 270, "Pitch": 0, "Roll": 0,
+          "X": 0,     "Y": 0.5,  "Z": 0
+        },
+        "DistanceUp": {
+          "SensorType": 5, "Enabled": true,
+          "Yaw": 0, "Pitch": 90, "Roll": 0,
+          "X": 0,   "Y": 0,     "Z": 0.5
+        },
+        "DistanceDown": {
+          "SensorType": 5, "Enabled": true,
+          "Yaw": 0, "Pitch": 270, "Roll": 0,
+          "X": 0,   "Y": 0,      "Z": -0.5
+        }
+      }
+    }
+  }
+}
